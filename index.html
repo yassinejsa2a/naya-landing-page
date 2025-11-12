@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0f62ff" />
+  <title>NAYA — Landing Page (étudiants)</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <a href="#contenu" class="skip">Aller au contenu</a>
+
+
+  <header class="header">
+    <div class="wrap header__row">
+      <div class="brand">
+        <div class="brand__name">NAYA</div>
+        <div class="tagline">Carnet de voyage</div>
+      </div>
+      <nav class="nav" aria-label="Navigation principale">
+        <a href="#features">Fonctionnalités</a>
+        <a href="#about">À propos</a>
+        <a href="#demo">Démo</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu" class="wrap">
+ 
+    <section class="hero" aria-label="Introduction">
+      <h1><span class="hero-name">NAYA</span>  Partagez vos voyages, trouvez l’inspiration</h1>
+      <p>
+        NAYA est un carnet de voyage social. Les membres partagent leurs expériences
+        et découvrent des destinations fiables en quelques clics.
+      </p>
+     
+      <button class="btn btn--ghost" onclick="location.href='https://github.com/yassinejsa2a/Naya'">
+        Voir le code
+      </button>
+    </section>
+
+    <section id="features" class="section" aria-label="Fonctionnalités principales">
+      <h2>Fonctionnalités (MVP)</h2>
+      <div class="features">
+        <article class="card">
+          <h3>Connexion sécurisée</h3>
+          <p>Authentification JWT, verification des mots de passe, et gestion de profil voyageur.</p>
+        </article>
+        <article class="card">
+          <h3>Carte interactive</h3>
+          <p>Visualisation des lieux partagés et exploration par destination.</p>
+        </article>
+        <article class="card">
+          <h3>Fil d’expériences</h3>
+          <p>Feed d’avis avec photos, likes et commentaires.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section about" aria-label="À propos">
+      <h2>À propos du projet</h2>
+      <p>
+        NAYA est né d’un constat simple : nous avions besoin d’un point de référence
+        unique pour partager nos expériences et préparer nos prochaines escapades.
+      </p>
+      <p class="badge">Projet étudiant — Holberton School (Portfolio Project)</p>
+
+      <div class="links">
+        <a href="https://github.com/yassinejsa2a/Naya">Dépôt GitHub</a>
+        <span>•</span>
+        <a href="https://www.linkedin.com/in/yassine-bouyanfif-a1b81b358/">LinkedIn Yassine</a>
+        <a href="https://www.linkedin.com/in/nawfel-laklit-025b5b376/">LinkedIn Nawfel</a>
+      </div>
+    </section>
+
+    <section id="demo" class="section demo" aria-label="Démonstration">
+      <h2>Démo en vidéo</h2>
+      <iframe
+        title="Démo NAYA"
+        src="https://www.youtube.com/embed/atj4jTBDL8o"
+        allowfullscreen
+      ></iframe>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>© 2025 — Réalisé par Yassine Bouyanfif & Nawfel Laklit. Projet Portfolio.</p>
+      <p class="footnote">.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
