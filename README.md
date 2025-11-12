@@ -47,7 +47,7 @@ The goal was to offer:
 - **Yassine Bouyanfif** — [LinkedIn](https://www.linkedin.com/in/yassine-bouyanfif-a1b81b358/)  
 - **Nawfel Laklit** — [LinkedIn](https://www.linkedin.com/in/nawfel-laklit-025b5b376/)  
 
-GitHub repository: [https://github.com/yassinejsa2a/Naya](https://github.com/yassinejsa2a/Naya)
+link: [naya landing page](https://naya-landing-page.netlify.app/)
 
 ---
 
